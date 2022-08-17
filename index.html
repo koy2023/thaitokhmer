@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Thai to Khmer</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 	<!----Custom css link---->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -27,7 +27,7 @@
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
   border-radius: 50px;
 }
 
@@ -57,8 +57,37 @@ position:-webkit-sticky;
 position: sticky;
 top:0px;
 background: white;
-padding: 1px;
+padding: 0px;
 }
+
+.close-icon{
+ border:1px;
+ solid: transparent;
+ background-color: transparent;
+ display: inline-block;
+ vertical-align: right;
+ outline: 0;
+ cursor: pointer;
+}
+.close-icon:after{
+content: "X";
+width: 20px;
+height: 18px;
+position:absolute;
+background-color:#E5E1EA;
+right:15px;
+top: 9px;
+
+margin: opx;
+padding: 5px;
+font-weight: normal;
+font-siz: 14px;
+box-shadow: 0 0 2px cyan;
+cursor: pointer; 
+border-radius: 50%;
+}
+
+
 	 /* scroll*/
     .scrollbar
 {
@@ -97,6 +126,10 @@ padding: 1px;
 									   color-stop(0.72, rgb(73,125,189)),
 									   color-stop(0.86, rgb(28,58,148)));
 }
+.search-box{
+height: px;
+margin-buttom:-1px;
+}
 
 </style>
 </head>
@@ -108,9 +141,13 @@ padding: 1px;
 	
     
 <div class="search-sticky">
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...🔍" title="Search..." />
+<form>
+<input class="search-box" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...🔍" title="Search..." />
+<button class="close-icon" type="reset">
+</button>
+ </form>
 </div>
+
 <ul id="myUL">
   <li><a href="https://asasasazasw.blogspot.com/2022/08/blog-post.html">ฉัน</a></li>
   <li><a href="https://asasasazasw.blogspot.com/2022/08/blog-post_12.html">ผม</a></li>
@@ -153,7 +190,9 @@ padding: 1px;
 </ul>
 				</div>
 		</div>
+       
 </div>
+
 <script>
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
