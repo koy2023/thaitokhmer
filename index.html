@@ -43,10 +43,11 @@
   background-color: #f6f6f6;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   display: block;
   border-radius: 50px;
+  height:50px;
 }
 
 #myUL li a:hover:not(.header) {
@@ -93,7 +94,7 @@ border-radius: 50%;
 {
 	margin-left: 0px;
 	float: left;
-	height: 370px;
+	height: 390px;
 	width: 100%;
 	background: white;
 	overflow-y: scroll;
@@ -127,8 +128,40 @@ border-radius: 50%;
 									   color-stop(0.86, rgb(28,58,148)));
 }
 .search-box{
-height: px;
+height: auto;
 margin-buttom:-1px;
+}
+
+.tooltip {
+ 
+ 
+  border-bottom: 0px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #C8D2FC;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 8px ;
+  font-family: khmer OS;
+ cursor: pointer ;
+
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  x-index:1;
+  top: 40%;
+  left: 50%;
+  margin-left: -50px;
+
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 </style>
@@ -149,44 +182,29 @@ margin-buttom:-1px;
 </div>
 
 <ul id="myUL">
-  <li><a href="https://koy2023.github.io/test/">ฉัน	<span style="font-family: Khmer OS;">ខ្ញុំ</span></a></li>
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/blog-post_12.html">ผม</a></li>
+  <div class="tooltip"><a href="https://koy2023.github.io/test/" > <span class="tooltiptext">ខ្ញុំ / ឆាន់</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >ฉัน<span style="font-family: Khmer OS; font-size: 0px;">ខ្ញុំ	ឆាន់</span></a></li></div>
+  
+   <div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">ខ្ញុំ / សក់</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >ผม<span style="font-family: Khmer OS; font-size: 0px;">ខ្ញុំ</span></a></li></div>
 
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/goo-your-browser-does-not-support-audio.html">กู</a></li>
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/rao-your-browser-does-not-support-audio.html">เรา</a></li>
+ <div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">អញ</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >กู<span style="font-family: Khmer OS; font-size: 0px;">ខ្ញុំ	អញ</span></a></li></div>
 
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/kun-your-browser-does-not-support-audio.html">คุณ</a></li>
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/meung-your-browser-does-not-support.html">มึง</a></li>
-  <li><a href="https://asasasazasw.blogspot.com/2022/08/naai-your-browser-does-not-support.html">นาย</a></li>
-  <li><a href="#">Adele	นาย</a></li>
-  <li><a href="#">កេ	นาย</a></li>
+<div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">យើង	/	ខ្ញុំ</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >เรา<span style="font-family: Khmer OS; font-size: 0px;">យើង	ខ្ញុំ</span></a></li></div>
 
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
+  <div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">អ្នក	/	លោក</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >คุณ<span style="font-family: Khmer OS; font-size: 0px;">អ្នក	លោក</span></a></li></div>
 
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-   <li><a href="#">កូន</a></li>
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
+<div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">នាយ	/	លោក</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >นาย<span style="font-family: Khmer OS; font-size: 0px;">លោក	នាយ</span></a></li></div>
 
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
+<div class="tooltip"> <a href="https://koy2023.github.io/test/" ><span class="tooltiptext">ឯង	/	ហែង</span></a>
+  <li ><a href="https://koy2023.github.io/test/" >มึง<span style="font-family: Khmer OS; font-size: 0px;">ឯង	ហែង</span></a></li></div>
 
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
-   <li><a href="#">កូន</a></li>
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
-
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
-
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-  <li><a href="#">Cindy</a></li>
+  
+  
 </ul>
 				</div>
 		</div>
