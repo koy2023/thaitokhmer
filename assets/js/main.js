@@ -17,7 +17,9 @@ function myFunction() {
 
 const audiosàwàtdee = new Audio();
 audiosàwàtdee.src ="https://drive.google.com/uc?export=download&id=1sY_abemu5PTBWcbvwLMgKrQ-41KEguKA";
-const audio1 = new Audio();
+
+const audiowàtdee = new Audio();
+audiowàtdee.src ="https://drive.google.com/uc?export=download&id=1OjdbVEYH3wwVeX-MtO7DkP1-H7ixFc7U";
 
 const audiochăn = new Audio();
 audiochăn.src="https://drive.google.com/uc?export=download&id=1Quz4PC52aGcC6_OzbKA3kqjYfKy12eqq";
@@ -154,4 +156,44 @@ audionéuk.src="https://drive.google.com/uc?export=download&id=1xAg_lTJaJMZjOAVN
 const audiohŭua = new Audio();
 audiohŭua.src="https://drive.google.com/uc?export=download&id=1-U4ePyqyD6ZF7S3hTYmLVXFpjHFYNHmL";
 
+const audiochàlàat = new Audio();
+audiochàlàat.src="https://drive.google.com/uc?export=download&id=1cUEyU5fcaS7OMckMY5aEl7ya6rZ510dE";
 
+const audiongôh = new Audio();
+audiongôh.src="https://drive.google.com/uc?export=download&id=14BWK_2sEl6I-ZId-yr7si0tFXn0t5Bnd";
+
+const audiowâa = new Audio();
+audiowâa.src="https://drive.google.com/uc?export=download&id=1KAl2ZpMjEs0PwnD4lU6nCOcjRbsg1oSn";
+
+const audioyím = new Audio();
+audioyím.src="https://drive.google.com/uc?export=download&id=12VspViTPr9dZ_3F5EdAksBILClehDcFh";
+
+const audiodtee = new Audio();
+audiodtee.src="https://drive.google.com/uc?export=download&id=1LHQblNxS6Mxti8VyYA53y7a3s-VHr1IX";
+
+const audiodtè = new Audio();
+audiodtè.src="https://drive.google.com/uc?export=download&id=1A1Vysv5IrJdlL1aeKnNg6oP2P7OokjFV";
+
+const audiodtàt = new Audio();
+audiodtàt.src="https://drive.google.com/uc?export=download&id=16Tq49wXNoNfrIhGGnKf11DgDo3qf6ej2";
+
+const audiomee = new Audio();
+audiomee.src="https://drive.google.com/uc?export=download&id=1oUxNl_x79TVjwZjXYgFHrauknQDQEcKv";
+
+const audiomâi = new Audio();
+audiomâi.src="https://drive.google.com/uc?export=download&id=1IB1Bhd6wIzqquTKCvxEReOf0TC0jsgBx";
+
+const audioàep = new Audio();
+audioàep.src="https://drive.google.com/uc?export=download&id=1aOuDAKjLoFYz0t8ff1H6lyeqUffIOa9N";
+
+const audiodoo = new Audio();
+audiodoo.src="https://drive.google.com/uc?export=download&id=1LFTjCtGS1sQenBT3xL_U3eqYwrIcHryA";
+
+const audiomong = new Audio();
+audiomong.src="https://drive.google.com/uc?export=download&id=1CTZcbJcmuTTIH078YJ83bNzfC3e5JNDg";
+
+const audiohĕn = new Audio();
+audiohĕn.src="https://drive.google.com/uc?export=download&id=12XDw-UqsjRmS6u4KOT3ExUg9JEtYT-Ny";
+
+const audioyàak = new Audio();
+audioyàak.src="https://drive.google.com/uc?export=download&id=1H3KE8u5t7Zi5TUtc6jt20MviNXMXht3E";
