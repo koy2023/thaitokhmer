@@ -197,3 +197,21 @@ audiohĕn.src="https://drive.google.com/uc?export=download&id=12XDw-UqsjRmS6u4KO
 
 const audioyàak = new Audio();
 audioyàak.src="https://drive.google.com/uc?export=download&id=1H3KE8u5t7Zi5TUtc6jt20MviNXMXht3E";
+
+const audioyàa = new Audio();
+audioyàa.src="https://drive.google.com/uc?export=download&id=1NbSzGLPxFypuRulKvvpcP9uiVB1TX6zH";
+
+const audioyaa = new Audio();
+audioyaa.src="https://drive.google.com/uc?export=download&id=1hvrYYkL3e5zSqUTQBcdnxkMfSkFKRjLX";
+
+const audiohŭuajai = new Audio();
+audiohŭuajai.src="https://drive.google.com/uc?export=download&id=1pzEQq7OZRd5Y4o_-j9ADPylnb0-vJESH";
+
+const audiotaang = new Audio();
+audiotaang.src="https://drive.google.com/uc?export=download&id=1WjR9u698CiHFb11qsDQwWT0luD--gdRm";
+
+const audioderntaang = new Audio();
+audioderntaang.src="https://drive.google.com/uc?export=download&id=1vzV63qb0gIPb0wn0ng0JSQEQbeZ35eO1";
+
+const audiokrîiat = new Audio();
+audiokrîiat.src="https://drive.google.com/uc?export=download&id=1CIRk-1Au2pz278rJ7PFxfRY6NPNHPn1X";
