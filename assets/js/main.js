@@ -284,3 +284,9 @@ audiodtòp1.src="https://drive.google.com/uc?export=download&id=1ltpjOjAArkC9kUV
 
 const audiobpròp = new Audio();
 audiobpròp.src="https://drive.google.com/uc?export=download&id=1olieEeuiFP-LpVofp3bnqyVsaDEcfJT9";
+
+const audiohăa = new Audio();
+audiohăa.src="https://drive.google.com/uc?export=download&id=13rzqaEp24OYMsnBzzXSuvAMUWu1pOxBc";
+
+const audioaahăan = new Audio();
+audioaahăan.src="https://drive.google.com/uc?export=download&id=1boQD5rIt_hlEOgnyEmYbo807LNrOgKMg";
