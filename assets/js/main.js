@@ -299,3 +299,7 @@ audiokĕrn.src="https://drive.google.com/uc?export=download&id=1uGEdtQjWlw4-XQel
 
 const audioaai = new Audio();
 audioaai.src="https://drive.google.com/uc?export=download&id=1tMDuryLG6b1ML6gnKk1izQAy2jVbJYms";
+
+const audiosòp = new Audio();
+audiosòp.src="https://drive.google.com/uc?export=download&id=13C66TBUnP0mi_4pBrmfO7Jb8w5cWqpCO";
+
