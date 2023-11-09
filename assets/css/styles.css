@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@500&display=swap');
 
+
 * {
   box-sizing: border-box;
 }
@@ -17,7 +18,8 @@
   margin-bottom: 1%;
   border-radius: 50px;
   margin-left: 5%;
- 
+  font-family: 'Noto Serif Thai', serif;
+
 
 }
 
@@ -247,15 +249,16 @@ a {
 .popup .sound:hover {
   color: #f00;
 }
-.popup   h2{
-     font-family: droidsansthai, Aksaramatee ;
+.popup h2{
+     font-family: 'Noto Serif Thai', serif;
      font-weight: 500;
 }
-.popup   h3{
+.popup h3{
   color:#A7061A;
 }
 .popup h4{ 
-  font-size: 22px; font-family: Khmer OS, Khmer OS System; 
+  font-size: 22px; 
+  font-family: Khmer OS, Khmer OS System; 
   color: #073978;
 }
 
@@ -333,10 +336,10 @@ a {
   padding: 0px;
   color:#0A0464 ;
   background-color:#EFF3F8 ;
-  
-    
   }
+  .row-popup h2{
 
+  }
  #myUL li a span { font-size: 0px;
 
   }
